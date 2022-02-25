@@ -8,6 +8,7 @@ ui <- fluidPage(
   `West Coast` = list("WA", "OR", "CA"),
   `Midwest` = list("MN", "WI", "IA"))
  )
+ 
 ) 
     
 server <- function(input, output, session) {
